@@ -1,0 +1,39 @@
+.main-container {
+  background-color: #f5d0fe;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.container {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.input-and-btn-container {
+  display: flex;
+  align-items: center;
+}
+
+.input-and-btn-container input {
+  height: 27px;
+  width: 100%;
+  border-radius: 5px;
+  padding: 0 10px;
+  outline: none;
+  border: 1px solid #cbd2d9;
+}
+
+.save-btn {
+  background-color: #d946ef;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 6px 20px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
